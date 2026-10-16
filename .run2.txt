@@ -1,0 +1,297 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                             16.4s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           3.3s
+I/FlutterActivityAndFragmentDelegate( 7153): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI( 7153): Beginning load of flutter...
+D/FlutterJNI( 7153): flutter (null) was loaded normally!
+I/flutter ( 7153): [IMPORTANT:flutter/shell/common/shell.cc(528)] [Action Required]: Impeller opt-out deprecated.
+I/flutter ( 7153):     The application opted out of Impeller by either using the
+I/flutter ( 7153):     `--no-enable-impeller` flag or the
+I/flutter ( 7153):     `io.flutter.embedding.android.EnableImpeller` `AndroidManifest.xml` entry.
+I/flutter ( 7153):     These options are going to go away in an upcoming Flutter release. Remove
+I/flutter ( 7153):     the explicit opt-out. If you need to opt-out, please report a bug describing
+I/flutter ( 7153):     the issue.
+I/flutter ( 7153): 
+I/flutter ( 7153):     https://github.com/flutter/flutter/issues/new?template=02_bug.yml
+I/flutter ( 7153): 
+D/FlutterRenderer( 7153): Width is zero. 0,0
+W/HWUI    ( 7153): Unknown dataspace 0
+Syncing files to device sdk gphone64 x86 64...                     588ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:60016/7_PsgKQaGrE=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:60016/7_PsgKQaGrE=/devtools/?uri=ws://127.0.0.1:60016/7_PsgKQaGrE=/ws
+D/ProfileInstaller( 7153): Installing profile for com.example.flutter_car_project
+I/Choreographer( 7153): Skipped 601 frames!  The application may be doing too much work on its main thread.
+I/WindowExtensionsImpl( 7153): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+D/FlutterRenderer( 7153): Width is zero. 0,0
+D/FlutterJNI( 7153): Sending viewport metrics to the engine.
+I/ter_car_project( 7153): Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+D/skia    ( 7153): Could not allocate backing texture for atlas
+D/skia    ( 7153): Could not allocate backing texture for atlas
+D/skia    ( 7153): Shader compilation error
+D/skia    ( 7153): ------------------------
+D/skia    ( 7153):    1	#version 100
+D/skia    ( 7153):    2	
+D/skia    ( 7153):    3	precision mediump float;
+D/skia    ( 7153):    4	precision mediump sampler2D;
+D/skia    ( 7153):    5	uniform highp vec4 sk_RTAdjust;
+D/skia    ( 7153):    6	uniform highp vec4 ulocalMatrix_S0;
+D/skia    ( 7153):    7	attribute highp vec2 inPosition;
+D/skia    ( 7153):    8	attribute mediump vec4 inColor;
+D/skia    ( 7153):    9	attribute highp vec4 inCircleEdge;
+D/skia    ( 7153):   10	varying highp vec4 vinCircleEdge_S0;
+D/skia    ( 7153):   11	varying mediump vec4 vinColor_S0;
+D/skia    ( 7153):   12	void main() {
+D/skia    ( 7153):   13	vinCircleEdge_S0 = inCircleEdge;
+D/skia    ( 7153):   14	vinColor_S0 = inColor;
+D/skia    ( 7153):   15	highp vec2 _tmp_0_inPosition = inPosition;
+D/skia    ( 7153):   16	gl_Position = vec4(_tmp_0_inPosition, 0.0, 1.0);
+D/skia    ( 7153):   17	gl_Position = vec4(gl_Position.xy * sk_RTAdjust.xz + gl_Position.ww * sk_RTAdjust.yw, 0.0, gl_Position.w);
+D/skia    ( 7153):   18	}
+D/skia    ( 7153):   19	
+D/skia    ( 7153): Errors:
+D/skia    ( 7153): 
+I/ter_car_project( 7153): AssetManager2(0x78e338650118) locale list changing from [] to [en-US]
+I/Choreographer( 7153): Skipped 102 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI( 7153): Sending viewport metrics to the engine.
+D/WindowLayoutComponentImpl( 7153): Register WindowLayoutInfoListener on Context=com.example.flutter_car_project.MainActivity@ee775b2, of which baseContext=android.app.ContextImpl@8356575
+D/FlutterJNI( 7153): Sending viewport metrics to the engine.
+I/flutter ( 7153): [api] GET /api/cars -> 200 (4941ms)
+I/ter_car_project( 7153): Background concurrent mark compact GC freed 1995KB AllocSpace bytes, 4(76KB) LOS objects, 49% free, 2327KB/4654KB, paused 189us,3.147ms total 124.357ms
+W/Choreographer( 7153): Frame time is 0.226907 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.320159 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.009037 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.332841 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.016267 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.091195 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.489505 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.130964 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.236293 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.152125 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.260596 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.442203 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.067016 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.441618 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.465358 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.336242 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.377389 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.03692 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.653286 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.076615 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.329198 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.286943 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.269742 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.434907 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.172539 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.435712 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.209513 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.191344 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.557551 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.384205 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.392908 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.410922 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.372196 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.227967 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.520809 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.344221 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.061501 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.134137 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.127524 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.342407 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.276024 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.049651 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.097967 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.018717 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.13394 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.454672 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.31292298 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.014176 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.31176 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.294601 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.016994 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.024359 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.081993 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.119873 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.183028 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.109881 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.455204 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.02952 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.357237 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.274919 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.075716 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.406461 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.052085 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.486314 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.30805 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.294779 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.195161 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.160086 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.040163 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.220073 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.115768 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.072827 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.350198 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.034375 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.025719 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.387885 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.16012199 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.213995 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.097093 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.634126 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.234996 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.167268 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.414594 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.18785 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.23714 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.11681 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.132017 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.343641 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.705756 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.170899 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.053675998 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.294121 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.753186 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.203447 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.491775 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.290612 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.096111 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.42965 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.428184 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.675528 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.023816 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.197631 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.56336 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.567463 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.080855 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.448662 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.82979 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.052742 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.056111 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.802216 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.029729 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.04743 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.007453 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.204218 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.100998 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.095232 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.019422 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.667505 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.131135 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.356081 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.056093 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.475917 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.51526 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.090599 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.403862 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.348258 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.313384 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.280355 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.050983 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.116445 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.087162 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.089816 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.15208 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.147364 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.142636 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.275932 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.205007 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.40361398 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.182861 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.051815 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.07383 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.214248 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.141602 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.242596 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.192238 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.095335 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.106666 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.291269 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.202426 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.060942 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.386862 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.383399 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.42237 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.092604 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.236731 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.139291 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.023482 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.316029 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.298477 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.188794 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.031737 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.019499 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.087873 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.116722 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 9.1E-5 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.315175 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.054169 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.136923 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.155042 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.140052 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.316292 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.603309 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.217955 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.563136 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.213901 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.145864 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.476789 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.39725 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.246283 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.49827 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.079026 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.282245 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.316331 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.055642 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.246862 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.123028 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.226182 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.570217 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.091037996 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.28249 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.174917 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.030302 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.112266 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.272985 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.100431 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.295773 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.722628 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.040383 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.102399 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.370396 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.438912 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.229784 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.62684 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.145177 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.494343 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.289411 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.315982 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.522594 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.037563 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.518151 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.453424 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.071341 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.112912 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.326221 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.234198 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.439662 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.394974 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.623807 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.226959 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.06874 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.430126 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.451479 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.462384 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.323526 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+W/Choreographer( 7153): Frame time is 0.316726 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+I/ter_car_project( 7153): Background concurrent mark compact GC freed 2240KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2327KB/4654KB, paused 86us,3.007ms total 120.050ms
+D/skia    ( 7153): Could not allocate backing texture for atlas
+D/skia    ( 7153): Could not allocate backing texture for atlas

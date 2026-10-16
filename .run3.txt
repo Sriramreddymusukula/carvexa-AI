@@ -1,0 +1,429 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                             90.1s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           8.1s
+I/FlutterActivityAndFragmentDelegate( 3759): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI( 3759): Beginning load of flutter...
+D/FlutterJNI( 3759): flutter (null) was loaded normally!
+I/flutter ( 3759): [IMPORTANT:flutter/shell/common/shell.cc(528)] [Action Required]: Impeller opt-out deprecated.
+I/flutter ( 3759):     The application opted out of Impeller by either using the
+I/flutter ( 3759):     `--no-enable-impeller` flag or the
+I/flutter ( 3759):     `io.flutter.embedding.android.EnableImpeller` `AndroidManifest.xml` entry.
+I/flutter ( 3759):     These options are going to go away in an upcoming Flutter release. Remove
+I/flutter ( 3759):     the explicit opt-out. If you need to opt-out, please report a bug describing
+I/flutter ( 3759):     the issue.
+I/flutter ( 3759): 
+I/flutter ( 3759):     https://github.com/flutter/flutter/issues/new?template=02_bug.yml
+I/flutter ( 3759): 
+D/FlutterRenderer( 3759): Width is zero. 0,0
+Syncing files to device sdk gphone64 x86 64...                     222ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:50786/_8apx-VmUXk=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:50786/_8apx-VmUXk=/devtools/?uri=ws://127.0.0.1:50786/_8apx-VmUXk=/ws
+D/ProfileInstaller( 3759): Installing profile for com.example.flutter_car_project
+I/Choreographer( 3759): Skipped 545 frames!  The application may be doing too much work on its main thread.
+I/WindowExtensionsImpl( 3759): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+I/ter_car_project( 3759): Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+D/FlutterRenderer( 3759): Width is zero. 0,0
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ter_car_project( 3759): AssetManager2(0x7e7840733e58) locale list changing from [] to [en-US]
+I/Choreographer( 3759): Skipped 190 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/WindowLayoutComponentImpl( 3759): Register WindowLayoutInfoListener on Context=com.example.flutter_car_project.MainActivity@a39a8a1, of which baseContext=android.app.ContextImpl@7cee120
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:ea276fd9: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/flutter ( 3759): [api] GET /api/cars -> 200 (7146ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (976ms)
+I/Choreographer( 3759): Skipped 46 frames!  The application may be doing too much work on its main thread.
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (2488ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (108ms)
+I/ter_car_project( 3759): AssetManager2(0x7e78407bd018) locale list changing from [] to [en-US]
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3459ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (192ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3527ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (864ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (1057ms)
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (90ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (94ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (1207ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (712ms)
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (894ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (227ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (201ms)
+I/ter_car_project( 3759): AssetManager2(0x7e7840753bb8) locale list changing from [] to [en-US]
+I/flutter ( 3759): [api] GET /api/cars -> 200 (20ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (109ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (18ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (921ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (88ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoibiIsImIiOiJ0YXRhIiwibSI6ImFlcmlzIn0.ilXIUFad_4pbzxDs41HQEI -> 200 (10076ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoibiIsImIiOiJ0YXRhIiwibSI6ImFlcmlzIn0.ilXIUFad_4pbzxDs41HQEI -> 200 (904ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (680ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4308ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLUF1ZGktcTgtNTUtdGZzaS1xdWF0dHJvLWJzdmktY2Fycy1HdXJnYW9uXzJiNzlkN2ExLWE4MTctNDI5OS05MmQ1LTJjMmYzNGY3MGIxYi5odG0_YWRJZD0zNDY2MyZhZFR5cGU9MSJ9._es17I0SD74hDAvVuNWq3W -> 200 (4124ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (934ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (40ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (289ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (772ms)
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (826ms)
+I/ImeTracker( 3759): com.example.flutter_car_project:986906e3: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+D/InsetsController( 3759): Setting requestedVisibleTypes to -1 (was -9)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (447ms)
+I/ImeTracker( 3759): com.example.flutter_car_project:e4b1af24: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:e4b1af24: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor( 3759): The input method toggled cursor monitoring on
+I/AssistStructure( 3759): Flattened final assist data: 532 bytes, containing 1 windows, 3 views
+W/InteractionJankMonitor( 3759): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.flutter_car_project
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:986906e3: onShown
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ter_car_project( 3759): Background concurrent mark compact GC freed 2257KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2499KB/4998KB, paused 236us,19.821ms total 495.837ms
+W/ter_car_project( 3759): Reducing the number of considered missed Gc histogram windows from 110 to 100
+I/flutter ( 3759): [api] GET /api/cars -> 200 (512ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3615ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4267ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3714ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3223ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3118ms)
+I/ImeTracker( 3759): com.example.flutter_car_project:c0ef6f12: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@f29fd5f
+D/InsetsController( 3759): Setting requestedVisibleTypes to -9 (was -1)
+D/CompatChangeReporter( 3759): Compat change id reported: 395521150; UID 10218; state: ENABLED
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): system_server:2e0b19c6: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3314ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3472ms)
+I/ImeTracker( 3759): com.example.flutter_car_project:d3cc338a: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+D/InsetsController( 3759): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor( 3759): The input method toggled cursor monitoring on
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:d3cc338a: onShown
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:8362226: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@f29fd5f
+D/InsetsController( 3759): Setting requestedVisibleTypes to -9 (was -1)
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): system_server:2f0f760c: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/ImeTracker( 3759): com.example.flutter_car_project:3b12d2cf: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+D/InsetsController( 3759): Setting requestedVisibleTypes to -1 (was -9)
+D/InputConnectionAdaptor( 3759): The input method toggled cursor monitoring on
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:3b12d2cf: onShown
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:5ec69b14: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@f29fd5f
+D/InsetsController( 3759): Setting requestedVisibleTypes to -9 (was -1)
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): system_server:14fc35da: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter ( 3759): [api] GET /api/cars -> 200 (190ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoibiIsImIiOiJ0b3lvdGEiLCJtIjoiZm9ydHVuZXIifQ.jGfFiCOxS93_gHAiwTbY5o -> 200 (10743ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/Choreographer( 3759): Skipped 32 frames!  The application may be doing too much work on its main thread.
+I/ter_car_project( 3759): AssetManager2(0x7e78407bec38) locale list changing from [] to [en-US]
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4344ms)
+I/ter_car_project( 3759): Background concurrent mark compact GC freed 2477KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2407KB/4815KB, paused 272us,26.401ms total 206.851ms
+W/ter_car_project( 3759): Reducing the number of considered missed Gc histogram windows from 161 to 100
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLUJtdy1peC14ZHJpdmU1MC1jYXJzLUd1cmdhb25fY2U3YTlmYjktYjI0Zi00YjY5LTlkYTUtM2I5MDg3NmNlMjRmLmh0bT9hZElkPTM0NjY3JmFkVHlwZT0xIn0.3rJ6RFDfXxye9a87q1N0oL -> 200 (5575ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (1200ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (157ms)
+I/ter_car_project( 3759): AssetManager2(0x7e784076fa98) locale list changing from [] to [en-US]
+I/ImeTracker( 3759): com.example.flutter_car_project:460a21fb: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+D/InsetsController( 3759): Setting requestedVisibleTypes to -1 (was -9)
+I/ImeTracker( 3759): com.example.flutter_car_project:67193fac: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:67193fac: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor( 3759): The input method toggled cursor monitoring on
+I/AssistStructure( 3759): Flattened final assist data: 508 bytes, containing 1 windows, 3 views
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:460a21fb: onShown
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): com.example.flutter_car_project:cc1c6afa: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@f29fd5f
+D/InsetsController( 3759): Setting requestedVisibleTypes to -9 (was -1)
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+D/FlutterJNI( 3759): Sending viewport metrics to the engine.
+I/ImeTracker( 3759): system_server:8126add3: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4883ms)
+I/flutter ( 3759): [api] request failed after 2258ms
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLU1lcmNlZGVzLWJlbnotdi1jbGFzcy1sd2ItY2Fycy1OZXctRGVsaGlfNjhiYzA5MDQtODFjYS00OTEyLThmNjYtOGU2MGU1ZDI0YTg3Lmh0bT9hZElkPTM0Mzc0JmFkVHlwZT00MSJ9.fic8ZOOTFCPGBv4JO-CI1D -> 200 (55ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars -> 200 (2522ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (667ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3916ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoibiIsImIiOiJ0YXRhIiwibSI6InNpZXJyYSJ9.UpWsK918-raqRrfpGA3XSK -> 200 (9995ms)
+I/ter_car_project( 3759): Background concurrent mark compact GC freed 2330KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 2391KB/4782KB, paused 127us,7.008ms total 62.099ms
+I/Choreographer( 3759): Skipped 203 frames!  The application may be doing too much work on its main thread.
+I/Choreographer( 3759): Skipped 400 frames!  The application may be doing too much work on its main thread.
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/Choreographer( 3759): Skipped 52 frames!  The application may be doing too much work on its main thread.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=false newVisibility=true
+E/FrameEvents( 3759): addRelease: Did not find frame.
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:160ca503: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+I/ter_car_project( 3759): AssetManager2(0x7e7840751318) locale list changing from [] to [en-US]
+I/ImeTracker( 3759): com.example.flutter_car_project:cee31589: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+D/InsetsController( 3759): Setting requestedVisibleTypes to -1 (was -9)
+I/ImeTracker( 3759): com.example.flutter_car_project:8eb7c47: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+D/InsetsController( 3759): show(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:8eb7c47: onCancelled at PHASE_CLIENT_REPORT_REQUESTED_VISIBLE_TYPES
+D/InputConnectionAdaptor( 3759): The input method toggled cursor monitoring on
+I/AssistStructure( 3759): Flattened final assist data: 508 bytes, containing 1 windows, 3 views
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4918ms)
+I/ImeTracker( 3759): com.example.flutter_car_project:ee72adde: onRequestHide at ORIGIN_CLIENT reason HIDE_SOFT_INPUT fromUser false
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=android.view.ImeBackAnimationController@f29fd5f
+D/InsetsController( 3759): Setting requestedVisibleTypes to -9 (was -1)
+I/ImeTracker( 3759): com.example.flutter_car_project:cee31589: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/ImeTracker( 3759): system_server:312f1248: onCancelled at PHASE_CLIENT_ON_CONTROLS_CHANGED
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3943ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLU5pc3Nhbi1taWNyYS1hY3RpdmUteHYtcy1jYXJzLU5ldy1EZWxoaV9iMGY4Y2ZlNy1jMGRmLTRmZWUtODIxOC0xODg2NGJlMGYxNjQuaHRtIn0.BqQ2XH7gWGqIWIZpsbGbG0 -> 200 (4119ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLUplZXAtY29tcGFzcy0xNC1saW1pdGVkLWNhcnMtTmV3LURlbGhpXzM2YWU1NmJkLTJiNTEtNGZkZC05MzdkLWRhYWUwNGI1NWYzMS5odG0ifQ.Fs1F-0-xisJvdHXRRGjLtP -> 200 (3425ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (685ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (23ms)
+I/flutter ( 3759): [api] GET /api/cars/eyJrIjoidSIsInUiOiJodHRwczovL3d3dy5jYXJkZWtoby5jb20vdXNlZC1jYXItZGV0YWlscy91c2VkLUZvcmQtZW5kZWF2b3VyLTMyLXRpdGFuaXVtLWF0LTR4NC1jYXJzLU5ldy1EZWxoaV82MTI3NDJlZC02NTgxLTRmNmEtOGQ5Yy04MjRiMTA5MzFkZWIuaHRtP2FkSWQ9MzU1NDQmYWRUeXBlPTQxIn0.S3uRRaJ3HsqoGoYLA_rpv9 -> 200 (4483ms)
+W/WindowOnBackDispatcher( 3759): sendCancelIfRunning: isInProgress=false callback=io.flutter.embedding.android.FlutterActivity$1@40f3405
+I/flutter ( 3759): [api] GET /api/health -> 200 (452ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (32ms)
+I/flutter ( 3759): [api] GET /api/cars/capabilities -> 200 (1306ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (4594ms)
+I/flutter ( 3759): [api] GET /api/cars -> 200 (3000ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (718ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (43ms)
+I/flutter ( 3759): [api] GET /api/health -> 200 (64ms)
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/flutter ( 7542): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+I/ter_car_project( 3759): Waiting for a blocking GC ProfileSaver
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+W/ter_car_project( 3759): Suspending all threads took: 31.386ms
+W/ter_car_project( 3759): Reducing the number of considered missed Gc histogram windows from 886 to 100
+I/ter_car_project( 3759): WaitForGcToComplete blocked ProfileSaver on CollectorTransition for 349.129ms
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/HWUI    ( 3759): Davey! duration=950ms; Flags=1, FrameTimelineVsyncId=956860, IntendedVsync=13197677073869, Vsync=13197943740525, InputEventId=790699728, HandleInputStart=13197961923823, AnimationStart=13197961956083, PerformTraversalsStart=13197961957788, DrawStart=13198235901424, FrameDeadline=13197693740535, FrameStartTime=13197951666528, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=13198238434667, SyncStart=13198240306156, IssueDrawCommandsStart=13198248980427, SwapBuffers=13198341677675, FrameCompleted=13198629693730, DequeueBufferDuration=6464612, QueueBufferDuration=6709240, GpuCompleted=13198623141739, SwapBuffersCompleted=13198629693730, DisplayPresentTime=0, CommandSubmissionCompleted=13198341677675, 
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#7) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#8) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[com.example.flutter_car_project/com.example.flutter_car_project.MainActivity]#6) as ready
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:886255f4: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/flutter ( 8343): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+I/Choreographer( 3759): Skipped 43 frames!  The application may be doing too much work on its main thread.
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/HWUI    ( 3759): Davey! duration=2273ms; Flags=1, FrameTimelineVsyncId=1892711, IntendedVsync=17416876905101, Vsync=17417593571739, InputEventId=0, HandleInputStart=17417617843836, AnimationStart=17417617873434, PerformTraversalsStart=17417617903142, DrawStart=17418480724229, FrameDeadline=17416893571767, FrameStartTime=17417604067712, FrameInterval=16666666, WorkloadTarget=16666666, SyncQueued=17418501117747, SyncStart=17418513550419, IssueDrawCommandsStart=17418520208562, SwapBuffers=17418615638508, FrameCompleted=17419162480765, DequeueBufferDuration=90036576, QueueBufferDuration=11096002, GpuCompleted=17419072138614, SwapBuffersCompleted=17419162480765, DisplayPresentTime=0, CommandSubmissionCompleted=17418615638508, 
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#10) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#11) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[com.example.flutter_car_project/com.example.flutter_car_project.MainActivity]#9) as ready
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:b5fe5a39: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/FlutterActivityAndFragmentDelegate(10645): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(10645): Beginning load of flutter...
+D/FlutterJNI(10645): flutter (null) was loaded normally!
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+I/flutter (10645): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(10645): Width is zero. 0,0
+D/FlutterRenderer(10645): Width is zero. 0,0
+D/FlutterJNI(10645): Sending viewport metrics to the engine.
+I/flutter (10645): [api] GET /api/cars/capabilities -> 200 (3756ms)
+D/FlutterJNI(10645): Sending viewport metrics to the engine.
+D/FlutterJNI(10645): Sending viewport metrics to the engine.
+I/flutter (10645): [api] GET /api/cars -> 503 (651ms)
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:7781ed59: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/FlutterActivityAndFragmentDelegate(10910): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(10910): Beginning load of flutter...
+D/FlutterJNI(10910): flutter (null) was loaded normally!
+I/flutter (10910): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(10910): Width is zero. 0,0
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+D/FlutterRenderer(10910): Width is zero. 0,0
+D/FlutterJNI(10910): Sending viewport metrics to the engine.
+D/FlutterJNI(10910): Sending viewport metrics to the engine.
+I/flutter (10910): [api] GET /api/cars/capabilities -> 200 (758ms)
+D/FlutterJNI(10910): Sending viewport metrics to the engine.
+I/flutter (10910): [api] GET /api/cars -> 503 (1757ms)
+I/flutter (10910): [api] GET /api/cars -> 503 (1337ms)
+I/flutter (10910): [api] GET /api/cars -> 503 (732ms)
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=false newVisibility=true
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:4c71aa35: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+I/FlutterActivityAndFragmentDelegate(11192): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(11192): Beginning load of flutter...
+D/FlutterJNI(11192): flutter (null) was loaded normally!
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/flutter (11192): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(11192): Width is zero. 0,0
+D/FlutterRenderer(11192): Width is zero. 0,0
+D/FlutterJNI(11192): Sending viewport metrics to the engine.
+D/FlutterJNI(11192): Sending viewport metrics to the engine.
+D/FlutterJNI(11192): Sending viewport metrics to the engine.
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+I/flutter (11192): [api] GET /api/cars/capabilities -> 200 (830ms)
+W/ter_car_project( 3759): Reducing the number of considered missed Gc histogram windows from 587 to 100
+I/flutter (11192): [api] GET /api/cars -> 503 (925ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (1250ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (482ms)
+I/flutter (11192): [api] GET /api/users/me -> 200 (90ms)
+I/flutter (11192): [api] GET /api/interests -> 200 (255ms)
+I/flutter (11192): [api] GET /api/favorites -> 200 (236ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (505ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (416ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (392ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (2488ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (168ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (121ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (27ms)
+I/flutter (11192): [api] GET /api/cars -> 503 (30ms)
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(wmsSync-VRI[MainActivity]#19) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(VRI[MainActivity]#20) as ready
+E/SurfaceSyncGroup( 3759): Failed to receive transaction ready in 1000ms. Marking SurfaceSyncGroup(SurfaceView[com.example.flutter_car_project/com.example.flutter_car_project.MainActivity]#18) as ready
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:781062cd: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/FlutterActivityAndFragmentDelegate(11474): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(11474): Beginning load of flutter...
+D/FlutterJNI(11474): flutter (null) was loaded normally!
+I/flutter (11474): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(11474): Width is zero. 0,0
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+D/FlutterRenderer(11474): Width is zero. 0,0
+D/FlutterJNI(11474): Sending viewport metrics to the engine.
+D/FlutterJNI(11474): Sending viewport metrics to the engine.
+D/FlutterJNI(11474): Sending viewport metrics to the engine.
+I/flutter (11474): [api] GET /api/cars/capabilities -> 200 (1139ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (103ms)
+I/flutter (11474): [api] GET /api/users/me -> 200 (120ms)
+I/flutter (11474): [api] GET /api/interests -> 200 (331ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (13ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (58ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (750ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (12ms)
+I/flutter (11474): [api] GET /api/cars -> 503 (769ms)
+D/ViewRootImpl( 3759): Skipping stats log for color mode
+W/HWUI    ( 3759): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+D/InsetsController( 3759): hide(ime(), fromIme=false)
+I/ImeTracker( 3759): com.example.flutter_car_project:37f008a3: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/ActivityThread( 3759): Package [com.carvexa.ai] reported as REPLACED, but missing application info. Assuming REMOVED.
+D/VRI[MainActivity]( 3759): visibilityChanged oldVisibility=true newVisibility=false
+I/FlutterActivityAndFragmentDelegate(11664): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI(11664): Beginning load of flutter...
+D/FlutterJNI(11664): flutter (null) was loaded normally!
+I/flutter (11664): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+D/FlutterRenderer(11664): Width is zero. 0,0
+D/FlutterRenderer(11664): Width is zero. 0,0
+D/FlutterJNI(11664): Sending viewport metrics to the engine.
+D/FlutterJNI(11664): Sending viewport metrics to the engine.
+D/FlutterJNI(11664): Sending viewport metrics to the engine.
+I/AutofillManager( 3759): onInvisibleForAutofill(): expiringResponse
+I/flutter (11664): [api] GET /api/cars/capabilities -> 200 (2052ms)
+I/flutter (11664): [api] GET /api/cars -> 503 (75ms)
+I/flutter (11664): [api] GET /api/cars -> 503 (704ms)
+I/flutter (11664): [api] GET /api/cars -> 503 (66ms)
+I/flutter (11664): [api] GET /api/users/me -> 200 (704ms)
+I/flutter (11664): [api] GET /api/interests -> 200 (271ms)
+I/flutter (11664): [api] POST /api/ai/chat -> 503 (816ms)
+I/flutter (11664): [api] POST /api/ai/chat -> 503 (1040ms)
+I/flutter (11664): [api] GET /api/cars -> 503 (762ms)
+I/flutter (11664): [api] GET /api/cars -> 200 (1012ms)
+I/flutter (11664): [api] GET /api/favorites -> 200 (129ms)
+Lost connection to device.

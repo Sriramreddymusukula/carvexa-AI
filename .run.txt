@@ -1,0 +1,71 @@
+Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+Running Gradle task 'assembleDebug'...                             40.9s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           3.4s
+I/FlutterActivityAndFragmentDelegate( 6974): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+D/FlutterJNI( 6974): Beginning load of flutter...
+D/FlutterJNI( 6974): flutter (null) was loaded normally!
+I/flutter ( 6974): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+Syncing files to device sdk gphone64 x86 64...                  
+I/ter_car_project( 6974): hiddenapi: Accessing hidden method Landroid/view/accessibility/AccessibilityNodeInfo;->getSourceNodeId()J (runtime_flags=0, domain=platform, api=unsupported,test-api) from Lio/flutter/view/AccessibilityViewEmbedder$ReflectionAccessors; (domain=app) using reflection: allowed
+I/ter_car_project( 6974): hiddenapi: Accessing hidden method Landroid/view/accessibility/AccessibilityRecord;->getSourceNodeId()J (runtime_flags=0, domain=platform, api=unsupported) from Lio/flutter/view/AccessibilityViewEmbedder$ReflectionAccessors; (domain=app) using reflection: allowed
+I/ter_car_project( 6974): hiddenapi: Accessing hidden field Landroid/view/accessibility/AccessibilityNodeInfo;->mChildNodeIds:Landroid/util/LongArray; (runtime_flags=0, domain=platform, api=unsupported) from Lio/flutter/view/AccessibilityViewEmbedder$ReflectionAccessors; (domain=app) using reflection: allowed
+I/ter_car_project( 6974): hiddenapi: Accessing hidden method Landroid/util/LongArray;->get(I)J (runtime_flags=0, domain=platform, api=unsupported) from Lio/flutter/view/AccessibilityViewEmbedder$ReflectionAccessors; (domain=app) using reflection: allowed
+D/AccessibilityBridge( 6974): Setting not found: accessibility_display_inversion_enabled, using default: 0
+D/FlutterRenderer( 6974): Width is zero. 0,0
+D/CompatChangeReporter( 6974): Compat change id reported: 377864165; UID 10218; state: ENABLED
+W/HWUI    ( 6974): Unknown dataspace 0
+Syncing files to device sdk gphone64 x86 64...                     294ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 x86 64 is available at: http://127.0.0.1:49691/kfIuqQdr7dY=/
+The Flutter DevTools debugger and profiler on sdk gphone64 x86 64 is available at: http://127.0.0.1:49691/kfIuqQdr7dY=/devtools/?uri=ws://127.0.0.1:49691/kfIuqQdr7dY=/ws
+D/ProfileInstaller( 6974): Installing profile for com.example.flutter_car_project
+I/Choreographer( 6974): Skipped 213 frames!  The application may be doing too much work on its main thread.
+I/WindowExtensionsImpl( 6974): Initializing Window Extensions, vendor API level=9, activity embedding enabled=true
+D/FlutterRenderer( 6974): Width is zero. 0,0
+D/FlutterJNI( 6974): Sending viewport metrics to the engine.
+I/ter_car_project( 6974): Compiler allocated 5042KB to compile void android.view.ViewRootImpl.performTraversals()
+E/flutter ( 6974): [ERROR:flutter/impeller/core/allocator.cc(53)] Break on 'ImpellerValidationBreak' to inspect point of failure: Requested texture size (1, 1) exceeds maximum supported size of (0, 0)
+E/flutter ( 6974): [ERROR:flutter/impeller/renderer/blit_pass.cc(125)] Break on 'ImpellerValidationBreak' to inspect point of failure: Attempted to add a texture blit with no destination.
+F/libc    ( 6974): Fatal signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x78e2c86ab000 in tid 7003 (1.raster), pid 6974 (ter_car_project)
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Build fingerprint: 'google/sdk_gphone64_x86_64/emu64xa:16/BE2A.250530.026.D1/13818094:user/release-keys'
+Revision: '0'
+ABI: 'x86_64'
+Timestamp: 2026-09-29 19:11:22.775157326+0530
+Process uptime: 12s
+Cmdline: com.example.flutter_car_project
+pid: 6974, tid: 7003, name: 1.raster  >>> com.example.flutter_car_project <<<
+uid: 10218
+signal 11 (SIGSEGV), code 2 (SEGV_ACCERR), fault addr 0x000078e2c86ab000
+    rax 000078deb0a0a3b0  rbx 000078deffffefc0  rcx 000000004f5f4c47  rdx 000000004f5f4c47
+    r8  000078deb0a446c0  r9  000000046725b567  r10 0000000000008000  r11 0000000000000246
+    r12 0000000000000001  r13 000078e2c8670cd0  r14 000078deb0a0a3b0  r15 000078e2c8670cd0
+    rdi 000078deb0a0a3b0  rsi 0000000417c66920
+    rbp 000078e1c0522ac0  rsp 000078e1c0522a90  rip 000078e4d86b4f10
+15 total frames
+backtrace:
+      #00 pc 000000000008ff10  /apex/com.android.runtime/lib64/bionic/libc.so (memmove+1312) (BuildId: fcb82240218d1473de1e3d2137c0be35)
+      #01 pc 0000000001b17c46  /memfd:jit-zygote-cache (deleted)
+      #02 pc 0000000001c189c9  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #03 pc 00000000001febff  [anon:stack_and_tls:7003]
+      #04 pc 00000000020bf8df  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #05 pc 00000000000020ef  [anon:scudo:primary]
+      #06 pc 00000000020bebf2  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #07 pc 0000000000000001  <unknown>
+      #08 pc 00000000020c0237  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #09 pc 000000000007334f  [anon:scudo:primary]
+      #10 pc 00000000020c62e9  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #11 pc 00000000001ff27f  [anon:stack_and_tls:7003]
+      #12 pc 00000000020c5ebf  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+      #13 pc 0000000000000001  <unknown>
+      #14 pc 00000000020c5a2f  /data/app/~~U_Qmi17d9rIit1JC_1P28A==/com.example.flutter_car_project-giODqJfBAan5CCbKVEX_Iw==/base.apk!libflutter.so (offset 0x45cc000) (BuildId: 2fadca64a5aedabd876a548bded23bfd1372867d)
+Lost connection to device.

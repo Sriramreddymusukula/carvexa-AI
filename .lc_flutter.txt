@@ -1,0 +1,14 @@
+﻿09-29 11:32:46.161 I/FlutterActivityAndFragmentDelegate( 4551): If you are attempting to set --enable-dart-profiling via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --enable-dart-profiling or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+09-29 11:32:54.662 I/flutter ( 4551): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+09-29 11:32:55.068 I/flutter ( 4551): The Dart VM service is listening on http://127.0.0.1:35961/cEUH7uU1HEQ=/
+09-29 11:33:28.773 I/flutter ( 4551): [api] request failed after 2430ms
+09-29 18:29:52.671 I/flutter ( 4551): [api] GET /api/health -> 503 (1754ms)
+09-29 18:29:55.347 I/flutter ( 4551): [api] GET /api/health -> 503 (131ms)
+09-29 18:47:52.627 I/flutter ( 4551): [api] GET /api/health -> 200 (929ms)
+09-29 18:48:09.345 I/flutter ( 4551): [api] GET /api/health -> 200 (867ms)
+09-29 18:48:31.617 I/flutter ( 4551): [api] GET /api/health -> 200 (712ms)
+09-29 19:05:41.868 I/flutter ( 6504): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+09-29 19:05:42.227 I/flutter ( 6504): The Dart VM service is listening on http://127.0.0.1:45647/mrzTKw-jy8k=/
+09-29 19:05:55.893 I/flutter ( 6504): [api] GET /api/cars -> 200 (5226ms)
+09-29 19:07:07.128 I/flutter ( 6504): [api] GET /api/cars/capabilities -> 200 (932ms)
+09-29 19:07:07.312 I/flutter ( 6504): [api] GET /api/cars -> 200 (168ms)

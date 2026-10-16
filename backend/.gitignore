@@ -1,0 +1,78 @@
+# --- Secrets / local config -------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# --- Dependencies / build output -------------------------------------------
+node_modules/
+coverage/
+dist/
+
+# --- Logs ------------------------------------------------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# --- Runtime / OS / editor -------------------------------------------------
+.PID
+pids/
+*.pid
+*.seed
+*.pid.lock
+.DS_Store
+Thumbs.db
+
+# --- Node inspector --------------------------------------------------------
+.env.local
+.eslintcache
+node-coverage.*
+# Flutter generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+build/
+**/build/
+
+# Node generated files
+node_modules/
+**/node_modules/
+
+# Secrets and local logs
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.log
+backend-run.err
+backend-run.log
+live-run.err
+live-run.log
+# Local debugging artifacts
+.*.txt
+_tree.txt
+.shot_*.png
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+**/build/
+**/node_modules/
+
+# Local logs
+*.log
+*.err
